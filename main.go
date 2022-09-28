@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	res := climbStairs(3)
+	res := rob([]int{2,3,2})
 	fmt.Println(res)
 }

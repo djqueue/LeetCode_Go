@@ -17,12 +17,12 @@ func lengthOfLongestSubstring(s string) int {
 	return max(len(s)-start, longest)
 }
 
-func max(i, j int) int {
-	if i >= j {
-		return i
-	}
-	return j
-}
+//func max(i, j int) int {
+//	if i >= j {
+//		return i
+//	}
+//	return j
+//}
 
 // input:
 // "abcabcbb"
